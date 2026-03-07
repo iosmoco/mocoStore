@@ -15,44 +15,23 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 10
+          "spacing": 8
         },
         {
           "class": "DepictionImageView",
           "URL": "https://iosmoco.github.io/mocostore/repo/images/icon.png",
-          "width": 130,
-          "height": 130,
+          "width": 120,
+          "height": 120,
           "cornerRadius": 24,
           "alignment": 1
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 10
+          "spacing": 8
         },
         {
-          "class": "DepictionSubheaderView",
-          "title": "パッケージ情報",
-          "useBoldText": true
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "Package",
-          "text": "tsumtsum"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "Version",
-          "text": "12.3.2"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "Author",
-          "text": "moco"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "Section",
-          "text": "Tweaks"
+          "class": "DepictionMarkdownView",
+          "markdown": "### パッケージ情報\n- **Package**: tsumtsum\n- **Version**: 12.3.2\n- **Author**: moco\n- **Section**: Tweaks"
         }
       ]
     }

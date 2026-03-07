@@ -59,44 +59,23 @@ data = {
                 },
                 {
                     "class": "DepictionSpacerView",
-                    "spacing": 10
+                    "spacing": 8
                 },
                 {
                     "class": "DepictionImageView",
                     "URL": os.environ["ICON_URL"],
-                    "width": 130,
-                    "height": 130,
+                    "width": 120,
+                    "height": 120,
                     "cornerRadius": 24,
                     "alignment": 1
                 },
                 {
                     "class": "DepictionSpacerView",
-                    "spacing": 10
+                    "spacing": 8
                 },
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "パッケージ情報",
-                    "useBoldText": True
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "title": "Package",
-                    "text": os.environ["PACKAGE"]
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "title": "Version",
-                    "text": os.environ["VERSION"]
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "title": "Author",
-                    "text": os.environ["AUTHOR"]
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "title": "Section",
-                    "text": os.environ["SECTION"]
+                    "class": "DepictionMarkdownView",
+                    "markdown": f"### パッケージ情報\n- **Package**: {os.environ['PACKAGE']}\n- **Version**: {os.environ['VERSION']}\n- **Author**: {os.environ['AUTHOR']}\n- **Section**: {os.environ['SECTION']}"
                 }
             ]
         }
