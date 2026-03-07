@@ -64,8 +64,8 @@ data = {
                 {
                     "class": "DepictionImageView",
                     "URL": os.environ["ICON_URL"],
-                    "width": 80,
-                    "height": 80,
+                    "width": 100,
+                    "height": 100,
                     "cornerRadius": 24,
                     "alignment": 1
                 },
