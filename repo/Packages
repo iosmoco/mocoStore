@@ -4,10 +4,10 @@ Architecture: iphoneos-arm64
 Maintainer: moco
 Installed-Size: 6208
 Filename: debs/tsumtsum_12.3.2_iphoneos-arm64.deb
-Size: 1378702
-MD5sum: b7a09bd6fa5adf9188326d403e929c3e
-SHA1: 5c254fc725c5241a29c5a69f48d5638046c50810
-SHA256: 961d2cc54096aeb90d6ba2c522bfa7ac0348c7f7a442cbb5b10557a4c52955e0
+Size: 1378402
+MD5sum: a71810a44853523302c84ade3337bea4
+SHA1: dd7c484f15260de641c0faa23f89c8cc591e4df4
+SHA256: 5a1328a3107a258b94612e02ba164b1051339be3fdef265e716d07c9886edaca
 Section: Tweaks
 Description: 全てのルートレスデバイスと互換性があります。
 Author: moco
