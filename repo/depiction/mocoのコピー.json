@@ -18,23 +18,12 @@
           "spacing": 8
         },
         {
-          "class": "DepictionScreenshotsView",
-          "itemCornerRadius": 18,
-          "itemSize": "{140, 260}",
-          "screenshots": [
-            {
-              "url": "https://iosmoco.github.io/mocostore/repo/images/ss1.png",
-              "accessibilityText": "Menu screenshot 1"
-            },
-            {
-              "url": "https://iosmoco.github.io/mocostore/repo/images/ss2.png",
-              "accessibilityText": "Menu screenshot 2"
-            },
-            {
-              "url": "https://iosmoco.github.io/mocostore/repo/images/ss3.png",
-              "accessibilityText": "Menu screenshot 3"
-            }
-          ]
+          "class": "DepictionImageView",
+          "URL": "https://iosmoco.github.io/mocostore/repo/images/icon.png",
+          "width": 100,
+          "height": 100,
+          "cornerRadius": 24,
+          "alignment": 1
         },
         {
           "class": "DepictionSpacerView",

@@ -10,7 +10,6 @@ REPO_DIR="repo"
 DEPICTION_DIR="$REPO_DIR/depiction"
 JSON_OUT="$DEPICTION_DIR/moco.json"
 BASE_URL="https://iosmoco.github.io/mocostore/repo"
-ICON_URL="$BASE_URL/images/icon.png"
 
 mkdir -p "$DEPICTION_DIR"
 
@@ -37,15 +36,18 @@ VERSION="$VERSION" \
 DESCRIPTION="$DESCRIPTION" \
 AUTHOR="$AUTHOR" \
 SECTION="$SECTION" \
-ICON_URL="$ICON_URL" \
 JSON_OUT="$JSON_OUT" \
+BASE_URL="$BASE_URL" \
 python3 <<'PY'
-import os, json
+import os
+import json
+
+base_url = os.environ["BASE_URL"]
 
 data = {
     "minVersion": "0.4",
     "class": "DepictionTabView",
-    "headerImage": "https://iosmoco.github.io/mocostore/repo/images/banner.png",
+    "headerImage": f"{base_url}/images/banner.png",
     "tintColor": "#6ec6d9",
     "backgroundColor": "#111111",
     "tabs": [
@@ -62,12 +64,23 @@ data = {
                     "spacing": 8
                 },
                 {
-                    "class": "DepictionImageView",
-                    "URL": os.environ["ICON_URL"],
-                    "width": 100,
-                    "height": 100,
-                    "cornerRadius": 24,
-                    "alignment": 1
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 18,
+                    "itemSize": "{140, 260}",
+                    "screenshots": [
+                        {
+                            "url": f"{base_url}/images/ss1.png",
+                            "accessibilityText": "Menu screenshot 1"
+                        },
+                        {
+                            "url": f"{base_url}/images/ss2.png",
+                            "accessibilityText": "Menu screenshot 2"
+                        },
+                        {
+                            "url": f"{base_url}/images/ss3.png",
+                            "accessibilityText": "Menu screenshot 3"
+                        }
+                    ]
                 },
                 {
                     "class": "DepictionSpacerView",
@@ -75,7 +88,13 @@ data = {
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": f"### パッケージ情報\n- **Package**: {os.environ['PACKAGE']}\n- **Version**: {os.environ['VERSION']}\n- **Author**: {os.environ['AUTHOR']}\n- **Section**: {os.environ['SECTION']}"
+                    "markdown": (
+                        f"### パッケージ情報\n"
+                        f"- **Package**: {os.environ['PACKAGE']}\n"
+                        f"- **Version**: {os.environ['VERSION']}\n"
+                        f"- **Author**: {os.environ['AUTHOR']}\n"
+                        f"- **Section**: {os.environ['SECTION']}"
+                    )
                 }
             ]
         }
