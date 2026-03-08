@@ -79,6 +79,14 @@ data = {
                         {
                             "url": f"{base_url}/images/ss3.png",
                             "accessibilityText": "Menu screenshot 3"
+                        },
+                        {
+                            "url": f"{base_url}/images/ss4.png",
+                            "accessibilityText": "Menu screenshot 4"
+                        },
+                        {
+                            "url": f"{base_url}/images/ss5.png",
+                            "accessibilityText": "Menu screenshot 5"
                         }
                     ]
                 },

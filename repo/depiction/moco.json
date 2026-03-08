@@ -33,6 +33,14 @@
             {
               "url": "https://iosmoco.github.io/mocostore/repo/images/ss3.png",
               "accessibilityText": "Menu screenshot 3"
+            },
+            {
+              "url": "https://iosmoco.github.io/mocostore/repo/images/ss4.png",
+              "accessibilityText": "Menu screenshot 4"
+            },
+            {
+              "url": "https://iosmoco.github.io/mocostore/repo/images/ss5.png",
+              "accessibilityText": "Menu screenshot 5"
             }
           ]
         },
