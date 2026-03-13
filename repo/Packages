@@ -1,3 +1,20 @@
+Package: ipad
+Version: 12.3.2
+Architecture: iphoneos-arm64
+Maintainer: moco
+Installed-Size: 6192
+Depends: mobilesubstrate
+Filename: debs/ipad_12.3.2_iphoneos-arm64.deb
+Size: 1377592
+MD5sum: 5390c44e711ba547c7424e3c892ccd5f
+SHA1: a4fd301ff7d15e168da202df2a20f67c324909c3
+SHA256: e4498af2c8f8de080aa5ad04cd5606f7a837ebbb1bf19b02e0205911ea6e675b
+Section: Tweaks
+Description: 全ての行為は自己責任です。すべてのルートレスデバイスと互換性があります。
+Author: moco
+Name: TsumTsum iPad-ONLY MENU
+SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/ipad.json
+
 Package: rainbow
 Version: 12.3.2
 Architecture: iphoneos-arm64
