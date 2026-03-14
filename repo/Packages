@@ -56,10 +56,10 @@ Maintainer: moco
 Installed-Size: 6192
 Depends: mobilesubstrate
 Filename: debs/tsumtsum.us.ipad_12.3.2_iphoneos-arm64.deb
-Size: 1376758
-MD5sum: c2c66d192b22e0b526bfae29263404ff
-SHA1: 06781ebae71164509ca8c8bea3d180251a8e3b17
-SHA256: ca30ff1ac192fa0144ceb2e55cdd32ff69be472df2e6de27dcabf4fb540a8ac6
+Size: 1377322
+MD5sum: 86a2343caab4715156fd4bef32e40a8a
+SHA1: 59cfef8b91b1c44ca23b17a1fd1f3c6a9b1274fd
+SHA256: 023090b3649e5affb36596c5959bf19b33e872f7eda637822b387a1d95c9e9f0
 Section: Tweaks
 Description: 全ての行為は自己責任です。すべてのルートレスデバイスと互換性があります。
 Author: moco
