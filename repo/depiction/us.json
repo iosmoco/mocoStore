@@ -23,20 +23,20 @@
           "itemSize": "{140, 260}",
           "screenshots": [
             {
-              "url": "https://iosmoco.github.io/mocostore/repo/images/us_ss1.png",
-              "accessibilityText": "Rainbow screenshot 1"
+              "url": "./update_repo.sh",
+              "accessibilityText": "us screenshot 1"
             },
             {
               "url": "https://iosmoco.github.io/mocostore/repo/images/us_ss2.png",
-              "accessibilityText": "Rainbow screenshot 2"
+              "accessibilityText": "us screenshot 2"
             },
             {
               "url": "https://iosmoco.github.io/mocostore/repo/images/us_ss3.png",
-              "accessibilityText": "Rainbow screenshot 2"
+              "accessibilityText": "us screenshot 2"
             },
             {
               "url": "https://iosmoco.github.io/mocostore/repo/images/us_ss4.png",
-              "accessibilityText": "Rainbow screenshot 3"
+              "accessibilityText": "us screenshot 3"
             }
           ]
         },
@@ -46,7 +46,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### パッケージ情報\n- **Package**: TsumTsum.us.ipad\n- **Version**: 12.3.2\n- **Author**: moco\n- **Section**: Tweaks"
+          "markdown": "### パッケージ情報\n- **Package**: TsumTsum.US.iPad\n- **Version**: 12.3.2\n- **Author**: moco\n- **Section**: Tweaks"
         }
       ]
     }
