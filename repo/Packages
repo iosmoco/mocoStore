@@ -56,12 +56,12 @@ Maintainer: moco
 Installed-Size: 6192
 Depends: mobilesubstrate
 Filename: debs/tsumtsum.us.ipad_12.3.2_iphoneos-arm64.deb
-Size: 1378804
-MD5sum: c07d302db9b4b81d93a737027182ea0a
-SHA1: ce79a9da3c9030534776b03e281a9c1dc85905d5
-SHA256: b3c5294a39e9f0011b01967329b4a2ac2ea0f1c1db045f6d7a7974e17d7648ab
+Size: 1376758
+MD5sum: c2c66d192b22e0b526bfae29263404ff
+SHA1: 06781ebae71164509ca8c8bea3d180251a8e3b17
+SHA256: ca30ff1ac192fa0144ceb2e55cdd32ff69be472df2e6de27dcabf4fb540a8ac6
 Section: Tweaks
 Description: 全ての行為は自己責任です。すべてのルートレスデバイスと互換性があります。
 Author: moco
 Name: TsumTsum US iPad-ONLY MENU
-
+SileoDepiction: https://iosmoco.github.io/mocostore/repo/depiction/us.json
