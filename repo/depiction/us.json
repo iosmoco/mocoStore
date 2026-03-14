@@ -23,7 +23,7 @@
           "itemSize": "{140, 260}",
           "screenshots": [
             {
-              "url": "./update_repo.sh",
+              "url": "https://iosmoco.github.io/mocostore/repo/images/us_ss1.png",
               "accessibilityText": "us screenshot 1"
             },
             {
@@ -32,11 +32,11 @@
             },
             {
               "url": "https://iosmoco.github.io/mocostore/repo/images/us_ss3.png",
-              "accessibilityText": "us screenshot 2"
+              "accessibilityText": "us screenshot 3"
             },
             {
               "url": "https://iosmoco.github.io/mocostore/repo/images/us_ss4.png",
-              "accessibilityText": "us screenshot 3"
+              "accessibilityText": "us screenshot 4"
             }
           ]
         },
